@@ -10,7 +10,7 @@ m.title("Secret Notes")
 m.minsize(300, 600)
 
 # Load the image
-path = 'C:/Users/Mert/top_secret.jpg'
+path = "top_secret.jpg"
 original_img = Image.open(path)
 resized_img = original_img.resize((300, 130))
 img = ImageTk.PhotoImage(resized_img)
