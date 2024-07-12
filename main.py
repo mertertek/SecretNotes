@@ -85,9 +85,5 @@ def solve_secret():
 my_button_2 = tkinter.Button(m, text="Solve", bg="Red", command=solve_secret)
 my_button_2.pack()
 
-# Save the encoded secret to a file
-with open("notes.txt", "w") as f:
-    f.write(encoded)
-
 # Run the main loop
 m.mainloop()
